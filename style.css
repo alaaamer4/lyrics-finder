@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  background: linear-gradient(rgba(207, 48, 151, 0.5), rgba(207, 106, 48, 0.72)),
+    url("./banner.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 45vh;
+}
+.preloader {
+  width: 100px;
+  height: 200px;
+  background: url("./loader.gif");
+}
+.result {
+  width: 60vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+li {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.7rem;
+}
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #e056fd;
+}
+.btn-small {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.3rem;
+  border: none;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #5f40ee;
+}
+.btn-small:hover {
+  background-color: #270e97;
+}
+.btn-small:focus {
+  outline: none;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  outline: none;
+  padding: 0.8rem 1.8rem;
+}
+.btn:hover {
+  background-color: #bf34db;
+}
+form {
+  display: flex;
+  width: 30rem;
+  height: 3rem;
+  position: relative;
+}
+input {
+  padding: 1rem;
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+}
+form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+h1 {
+  color: #fff;
+  font-size: 2.3rem;
+  padding: 2rem;
+}
+
+.placeholder {
+  text-align: center;
+  margin: 1rem;
+}
